@@ -14,7 +14,7 @@ const Projects = () => {
     const tiklagelsinText =''
     
   return (
-    <div name='experiences'  className='w-full h-screen bg-[#0a192f] text-gray-200'>
+    <div name='experiences'  className='w-full md:h-screen bg-[#0a192f] text-gray-200'>
       <div className='flex flex-col pt-40 px-4 mx-auto justify-center max-w-[1080px] w-full h-full'>
 
 <div>
