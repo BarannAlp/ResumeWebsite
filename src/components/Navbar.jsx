@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import {FaBars,FaTimes,FaGithub,FaLinkedin} from 'react-icons/fa'
-import Logo from "../assets/computer-me.png"
+import Logo from "../assets/mainlogo.png"
 import resume from "../assets/resume.pdf"
 import {HiOutlineMail} from 'react-icons/hi'
 import { Link } from 'react-scroll'
@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
 <div class='text-gray-300 text-2xl fixed top-0 w-full  flex justify-between items-center pr-4 bg-[#060c16]'>
-<img className='mt-[-25px]' src={Logo} alt="Logo Image" style={{width: '120px'}}/>
+<img className='mt-[-10px]' src={Logo} alt="Logo Image" style={{width: '110px'}}/>
 {/*Mobile Icons */}
 
 <ul className=' flex md:hidden  flex-row top-[0] '>
@@ -57,6 +57,7 @@ const Navbar = () => {
   <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-105px] hover:ml-[-10px] duration-300 bg-yellow-600'> <a className='flex justify-between items-center w-full text-gray-300' href={resume} download >Resume<BsFillPersonLinesFill size={30}/></a></li>
   <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-105px] hover:ml-[-10px] duration-300 bg-red-700'> <a className='flex justify-between items-center w-full text-gray-300' href='mailto:baranalpod@gmail.com' >Email<HiOutlineMail size={30}/></a></li>
 </ul>
+
 
 
 </div>
