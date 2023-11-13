@@ -11,13 +11,13 @@ const projects = () => {
 
 <div>
 <p className=' text-4xl font-bold inline border-b-4 border-yellow-700'>Projects</p>
-<p className='py-4'>You can check some of my recent projects:</p>
+<p className='py-4'> You can check some of my recent projects, click for more information.</p>
 
 </div>
 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-<Card image={reactapp} link='' text=' This application made with React.js'/>
-<Card image={phpchat} link='https://github.com/BarannAlp/php-chat' text='Facial recognization system powered with Flask.'/>
-<Card image={flaskapp} link='https://github.com/BarannAlp/Flask-Powered-Facial-Recoginiton-System/tree/main/application' text='Real-time chat application made with php.'/>
+<Card image={reactapp} link='https://github.com/BarannAlp/ResumeWebsite' text='{/* This application made with React.js */}'/>
+<Card image={phpchat} link='https://github.com/BarannAlp/php-chat' text='{/* Real-time chat application made with php. */}'/>
+<Card image={flaskapp} link='https://github.com/BarannAlp/Flask-Powered-Facial-Recoginiton-System/tree/main/application' text=' {/*Facial recognization system powered with Flask. */}'/>
 
  </div>
 

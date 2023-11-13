@@ -9,8 +9,8 @@ import mysql from '../assets/mysql.png'
 import php from '../assets/php.png'
 const Skills = () => {
   return (
-    <div name='About' className='w-full h-screen bg-[#0a192f] text-gray-200'>
-    <div className='flex flex-col pt-20 items-center w-full h-full'>
+    <div name='skills' className='w-full h-screen bg-[#0a192f] text-gray-200'>
+    <div className='flex flex-col pt-40 items-center w-full h-full'>
 
         <div className='max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8'>
         <div>

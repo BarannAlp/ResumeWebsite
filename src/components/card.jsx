@@ -3,8 +3,8 @@ import React from 'react';
 function Card({ image, link, text }) {
   return (
       <div style={{backgroundImage: `url(${image})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-        <div className='opacity-0 text-center group-hover:opacity-100'>
-          <span className='text-2xl font-bold text-white tracking-wider'>
+        <div className='opacity-0 text-center group-hover:opacity-100 text'>
+          <span className=' font-bold text-white tracking-wider'>
             {text}
           </span>
           <div className='pt-8 text-center'>
