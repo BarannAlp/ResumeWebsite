@@ -7,10 +7,10 @@ import Card from './card.jsx'
 const projects = () => {
   return (
     <div name='projects'  className='w-full h-screen bg-[#0a192f] text-gray-200'>
-      <div className='flex flex-col px-4 mx-auto justify-center max-w-[1080px] w-full h-full'>
+      <div className='flex flex-col px-4 pt-40 mx-auto justify-center max-w-[1080px] w-full h-full'>
 
 <div>
-<p className=' text-4xl font-bold inline border-b-4 border-yellow-700'>Projects</p>
+<p className=' text-4xl font-bold inline border-b-4 border-yellow-600 '>Projects</p>
 <p className='py-4'> You can check some of my recent projects, click for more information.</p>
 
 </div>

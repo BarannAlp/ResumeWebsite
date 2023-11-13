@@ -15,7 +15,7 @@ const Projects = () => {
     
   return (
     <div name='experiences'  className='w-full h-screen bg-[#0a192f] text-gray-200'>
-      <div className='flex flex-col px-4 mx-auto justify-center max-w-[1080px] w-full h-full'>
+      <div className='flex flex-col pt-40 px-4 mx-auto justify-center max-w-[1080px] w-full h-full'>
 
 <div>
 <p className=' text-4xl font-bold inline border-b-4 border-yellow-700'>Experiences</p>
