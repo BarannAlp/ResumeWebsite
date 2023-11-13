@@ -26,7 +26,7 @@ const Home = () => {
 </div>
 </div>
 
-<img className='w-200 py-5' src={Logo} alt="Logo Image" />
+<img className=' hidden md:flex w-200 py-5' src={Logo} alt="Logo Image" />
 
 </div> 
 
