@@ -9,7 +9,7 @@ const Navbar = () => {
   const handleClick = () => setIsNav(!IsNav)
   return (
 <div class='text-gray-300 text-2xl fixed top-0 w-full  flex justify-between items-center pr-4 bg-[#060c16]'>
-<img className='mt-[-15px]' src={Logo} alt="Logo Image" style={{width: '120px'}}/>
+<img className='mt-[-25px]' src={Logo} alt="Logo Image" style={{width: '120px'}}/>
 {/* Pages */}
   <ul className='hidden md:flex'>
     <li>Home</li>
@@ -38,7 +38,7 @@ const Navbar = () => {
 <ul className=' hidden lg:flex fixed flex-col top-[35%] left-0'>
   <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-105px] hover:ml-[-10px] duration-300 bg-blue-700'> <a className='flex justify-between items-center w-full text-gray-300' hrefLang='' >LinkedIn<FaLinkedin size={30}/></a></li>
   <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-105px] hover:ml-[-10px] duration-300 bg-black'> <a className='flex justify-between items-center w-full text-gray-300' hrefLang='' >GitHub<FaGithub size={30}/></a></li>
-  <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-105px] hover:ml-[-10px] duration-300 bg-yellow-500'> <a className='flex justify-between items-center w-full text-gray-300' hrefLang='' >Resume<BsFillPersonLinesFill size={30}/></a></li>
+  <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-105px] hover:ml-[-10px] duration-300 bg-yellow-600'> <a className='flex justify-between items-center w-full text-gray-300' hrefLang='' >Resume<BsFillPersonLinesFill size={30}/></a></li>
   <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-105px] hover:ml-[-10px] duration-300 bg-red-700'> <a className='flex justify-between items-center w-full text-gray-300' hrefLang='' >Email<HiOutlineMail size={30}/></a></li>
 </ul>
 
